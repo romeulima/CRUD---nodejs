@@ -1,0 +1,31 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+  {
+    "title": "video 01",
+    "description": "This is my first contact with a data base",
+    "duration": 10
+}
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/f0cfc899-feaf-4a47-b944-702bc332322f
+Content-Type: application/json
+
+{
+  {
+    "title": "video 02",
+    "description": "This is my second contact with a data base",
+    "duration": 10
+}
+}
+
+###
+
+DELETE http://localhost:3333/videos/f0cfc899-feaf-4a47-b944-702bc332322f
